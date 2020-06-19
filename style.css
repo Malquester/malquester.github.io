@@ -1,8 +1,13 @@
-﻿table{
+table{
 
     width:400px;
 }
 
+caption{
+
+    font-size: 30px;
+    padding-bottom: 5px;
+}
 th{
     text-align:center;
 }
@@ -23,8 +28,13 @@ table, th, td{
 }
 
 tr:nth-child(even) {
-    background-color: #898989;
+    background-color: #8f8e8e;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
 }
 body {
 
+        background-color: #808080;
 }
